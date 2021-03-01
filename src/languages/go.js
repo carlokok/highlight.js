@@ -21,7 +21,7 @@ export default function(hljs) {
   };
   return {
     name: 'Go',
-    aliases: ['golang'],
+    aliases: ['golang', 'gold'],
     keywords: GO_KEYWORDS,
     illegal: '</',
     contains: [

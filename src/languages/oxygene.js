@@ -9,14 +9,7 @@ export default function(hljs) {
   const OXYGENE_KEYWORDS = {
     $pattern: /\.?\w+/,
     keyword:
-      'abstract add and array as asc aspect assembly async begin break block by case class concat const copy constructor continue ' +
-      'create default delegate desc distinct div do downto dynamic each else empty end ensure enum equals event except exit extension external false ' +
-      'final finalize finalizer finally flags for forward from function future global group has if implementation implements implies in index inherited ' +
-      'inline interface into invariants is iterator join locked locking loop matching method mod module namespace nested new nil not notify nullable of ' +
-      'old on operator or order out override parallel params partial pinned private procedure property protected public queryable raise read readonly ' +
-      'record reintroduce remove repeat require result reverse sealed select self sequence set shl shr skip static step soft take then to true try tuple ' +
-      'type union unit unsafe until uses using var virtual raises volatile where while with write xor yield await mapped deprecated stdcall cdecl pascal ' +
-      'register safecall overload library platform reference packed strict published autoreleasepool selector strong weak unretained'
+    "absolute  abstract  add  and  array  as  asc  asm  aspect  assembler  assembly  async  at  autoreleasepool  await  begin  block  break  by  case  cdecl  class  const  constructor  continue  copy  create  default  delegate  deprecated  desc  destructor  distinct  div  do  downto  dynamic  each  else  empty  end  ensure  enum  equals  event  except  exit  extension  external  false  file  final  finalization  finalize  finalizer  finally  flags  for  forward  from  function  future  global  goto  group  has  helper  if  implementation  implements  implies  in  index  inherited  initialization  inline  interface  into  invariants  is  iterator  join  label  lazy  library  lifetimestrategy  locked  locking  loop  mapped  matching  method  mod  module  namespace  nested  new  nil  not  notify  nullable  of  old  on  operator  optional  or  order  otherwise  out  overload  override  packed  parallel  param  params  partial  pascal  pinned  platform  private  procedure  program  property  protected  public  published  queryable  raise  raises  read  readonly  record  reference  register  reintroduce  remove  repeat  require  resourcestring  result  reverse  safecall  sealed  select  selector  self  sequence  set  shl  shr  skip  soft  static  stdcall  step  strict  strong  take  then  threadvar  to  true  try  tuple  type  unit  unretained  unsafe  until  uses  using  var  virtual  volatile  weak  where  while  with  write  xor  yield  "
   };
   const CURLY_COMMENT = hljs.COMMENT(
     /\{/,

@@ -144,7 +144,9 @@ export default function(hljs) {
     'when',
     'where',
     'with',
-    'yield'
+    'yield',
+    "__arglist","__makeref","__reftype","__refvalue","async","await","module","assembly","when","unmanaged","init","record","__autoreleasepool",
+"__selector","__weak","__strong","__unretained","__aspect","__mapped","__inline","__extension","__require","__ensure","__result","__old","__invariants"
   ];
 
   var KEYWORDS = {
@@ -235,7 +237,7 @@ export default function(hljs) {
 
   return {
     name: 'C#',
-    aliases: ['cs', 'c#'],
+    aliases: ['cs', 'c#', 'hydrogene'],
     keywords: KEYWORDS,
     illegal: /::/,
     contains: [

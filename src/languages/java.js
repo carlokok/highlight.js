@@ -14,7 +14,8 @@ export default function(hljs) {
     'for true while long strictfp finally protected import native final void ' +
     'enum else break transient catch instanceof byte super volatile case assert short ' +
     'package default double public try this switch continue throws protected public private ' +
-    'module requires exports do';
+    'module requires exports do  __aspect   __assembly   __module   __extension   __partial   __out   __ref   __struct   __mapped  '+
+    '__get   __set   __block      __strong   __weak   __unretained   __selector   __require   __ensure   __result   __old   __invariants   __autoreleasepool   __event   __add   __remove  ';
 
   var ANNOTATION = {
     className: 'meta',
@@ -31,7 +32,7 @@ export default function(hljs) {
 
   return {
     name: 'Java',
-    aliases: ['jsp'],
+    aliases: ['jsp', 'iodine'],
     keywords: KEYWORDS,
     illegal: /<\/|#/,
     contains: [

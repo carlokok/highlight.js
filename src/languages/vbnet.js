@@ -133,7 +133,7 @@ export default function(hljs) {
 
   return {
     name: 'Visual Basic .NET',
-    aliases: [ 'vb' ],
+    aliases: [ 'vb', 'mercury' ],
     case_insensitive: true,
     classNameAliases: {
       label: 'symbol'
@@ -142,13 +142,13 @@ export default function(hljs) {
       keyword:
         'addhandler alias aggregate ansi as async assembly auto binary by byref byval ' + /* a-b */
         'call case catch class compare const continue custom declare default delegate dim distinct do ' + /* c-d */
-        'each equals else elseif end enum erase error event exit explicit finally for friend from function ' + /* e-f */
+        'each equals else elseif end mapped enum erase error event exit explicit finally for friend from function ' + /* e-f */
         'get global goto group handles if implements imports in inherits interface into iterator ' + /* g-i */
         'join key let lib loop me mid module mustinherit mustoverride mybase myclass ' + /* j-m */
         'namespace narrowing new next notinheritable notoverridable ' + /* n */
         'of off on operator option optional order overloads overridable overrides ' + /* o */
         'paramarray partial preserve private property protected public ' + /* p */
-        'raiseevent readonly redim removehandler resume return ' + /* r */
+        'raiseevent readonly redim removehandler resume return mappedto	mymapped ' + /* r */
         'select set shadows shared skip static step stop structure strict sub synclock ' + /* s */
         'take text then throw to try unicode until using when where while widening with withevents writeonly yield' /* t-y */,
       built_in:
